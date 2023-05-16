@@ -18,9 +18,9 @@
 }
 
 @media (max-width: 567px) {
-    #sidebar {
+    /* #sidebar {
         display: none;
-    }
+    } */
 
     #sidebar.view-sidebar {
         display: block;

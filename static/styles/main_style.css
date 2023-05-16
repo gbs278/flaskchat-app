@@ -44,6 +44,7 @@ img {
 }
 
 @media (max-width: 588px) {
+    
     #righthand-side {
         padding-left: 1.5em;
     }
