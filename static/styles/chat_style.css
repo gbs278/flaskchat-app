@@ -17,6 +17,21 @@
     border-right: 0.5px solid #898c91;
 }
 
+@media (max-width: 567px) {
+    #sidebar {
+        display: none;
+    }
+
+    #sidebar.view-sidebar {
+        display: block;
+    }
+
+    #show-sidebar-button {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 #sidebar p {
     padding-left: 2em;
     padding-right:2em;

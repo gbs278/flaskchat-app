@@ -43,6 +43,18 @@ img {
     overflow: hidden; /* Make this div take up the rest of the horizontal space, and no more */
 }
 
+@media (max-width: 588px) {
+    #righthand-side {
+        padding-left: 1.5em;
+    }
+}
+
+@media (min-width: 1000px) {
+    #righthand-side {
+        max-width: 50%;
+    }
+}
+
 h2 {
     color: #5b9cfc;
 }
