@@ -13,6 +13,7 @@ app.secret_key = os.environ.get('SECRET')
 
 # Configure db
 app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL_2')
+print("gal in config " , os.environ.get('DATABASE_URL_2'))
 
 db.init_app(app)
 
