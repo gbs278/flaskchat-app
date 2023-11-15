@@ -1,10 +1,6 @@
 # FlaskChat App
 
-This is a simple chat application built with Flask and SocketIO. Users can join different chat rooms and send messages to other users in real-time.
-
-## Demo
-
-The app is currently deployed on Heroku and can be accessed at the following URL: https://gal-chat.herokuapp.com/
+This is a simple chat application built with Flask-SocketIO and a PostgreSQL database. Users can join different chat rooms and send messages to other users in real-time.
 
 ## Usage
 
